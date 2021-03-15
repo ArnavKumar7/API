@@ -23,7 +23,10 @@ class details(BaseModel):
     srn: str
     comments:str
 
-    
+@app.get("/")
+def first():
+    return "Welcome to our first app"
+
 @app.get('/hello')
 def basic():
     return 'hello world'
