@@ -1,0 +1,15 @@
+ayaan,18,PES2UG20CS200,HELLO
+joel,56,PES2UG20CS345,HELLO THERE
+ayaan,23,pes2ug20cs200, hello 
+Arnav Kumar,18,PES2UG20CS403, asdjaskldja 
+Arnav Kumar,18,PES2UG20CS403, asdjaskldja 
+Arnav Kumar,18,askdjaios, dsadas 
+Arnav Kumar,18,PES2UG20CS403, PROFESSIONAL 
+Arnav Kumar,18,pes2ug20cs403, dxjksahdjkas 
+Arnav Kumar,18,PES2UG20CS403, i love you 
+awkjd,213,ewfsdfgsdgdzfffs, frsfsfssd 
+awkjd,213,ewfsdfgsdgdzfffs, frsfsfssd 
+Arnav Kumar,18,oduaesigfuiasgs, kadsihdiuasgd 
+dedasa,221,dfvsfvad, vasdvsdva 
+{s_name},{str(age)},{srn}, {com} 
+sdfds,231,afdfa, adsfafs 
