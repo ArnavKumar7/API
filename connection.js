@@ -29,7 +29,7 @@ function studentdb(){
 	var comms=document.getElementById("comm1").value
 	axios({
 		method:'post',
-		url: "https://0.0.0.0/details",
+		url: "https://157.45.218.109:0/details",
 		data: {
 			student_name: name,
 			age: age,
