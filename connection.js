@@ -29,7 +29,7 @@ function studentdb(){
 	var comms=document.getElementById("comm1").value
 	axios({
 		method:'post',
-		url: "https://157.45.38.233:0/details",
+		url: "https://new-student-db.herokuapp.com/details",
 		data: {
 			student_name: name,
 			age: age,
