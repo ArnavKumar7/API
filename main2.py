@@ -56,7 +56,7 @@ def det(det:details):
     f.write(f'{s_name},{str(age)},{srn}, {com} \n')
     f.close
 
-    with open('funfacts.txt','r') as f:
+    with open('funfacts.txt') as f:
         lines = f.readlines()
         a=(random.choice(lines).strip())
 
