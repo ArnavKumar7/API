@@ -53,7 +53,7 @@ def det(det:details):
     }
     print("i m in")
     f=open("docx.txt",'a')
-    #f=open('D:/Downloads/details.txt','a')
+    #f=open('D:/Downloads/student details.txt','a')
     f.write(f'{s_name},{str(age)},{srn}, {com} \n')
     f.close
 
@@ -66,7 +66,7 @@ def det(det:details):
 
 @app.get('/data/{dig}')
 def data(dig):
-    f=open('docx.txt','r')
+    f=open('student details.txt','r')
     rea=f.readlines()
     count= 0
     a=[]
