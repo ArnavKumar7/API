@@ -52,8 +52,7 @@ def det(det:details):
         "comments":com
     }
     print("i m in")
-    f=open("docx.txt",'a')
-    #f=open('D:/Downloads/student details.txt','a')
+    f=open("student details.txt",'a')
     f.write(f'{s_name},{str(age)},{srn}, {com} \n')
     f.close
 
