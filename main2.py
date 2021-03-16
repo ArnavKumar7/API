@@ -52,7 +52,7 @@ def det(det:details):
         "comments":com
     }
     print("i m in")
-    f=open("docx.txt",'a')
+    f=open("studentdb.txt",'a')
     f.write(f'{s_name},{str(age)},{srn}, {com} \n')
     f.close
 
@@ -65,7 +65,7 @@ def det(det:details):
 
 @app.get('/data/{dig}')
 def data(dig):
-    f=open('docx.txt','r')
+    f=open('studentdb.txt','r')
     rea=f.readlines()
     count= 0
     a=[]
