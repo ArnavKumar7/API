@@ -14,7 +14,7 @@ axios({
 
 axios({
 	method:'get'
-	url: "http://localhost:8000/"
+	url: "https://new-student-db.herokuapp.com"
 }).then(response => {
 	var detail=response.data
 	console.log(response.data)
@@ -29,7 +29,7 @@ function studentdb(){
 	var comms=document.getElementById("comm1").value
 	axios({
 		method:'post',
-		url: "http://localhost:8000/details",
+		url: "https://new-student-db.herokuapp.com/details",
 		data: {
 			student_name: name,
 			age: age,
