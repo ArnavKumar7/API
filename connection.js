@@ -14,7 +14,7 @@ axios({
 
 axios({
 	method:'get'
-	url: "http://localhost:8000/"
+	url: "https://new-student-db.herokuapp.com/"
 }).then(response => {
 	var detail=response.data
 	console.log(response.data)
